@@ -1,0 +1,8 @@
+.no-data-row {
+    text-align: center;
+    font-style: italic;
+}
+
+.team-highlight {
+    background-color: rgba(68, 183, 52, 0.18) !important;
+}

@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.handwriting {
+    font-family: 'Great Vibes', cursive;
+}
+
+.mt-10vh {
+  margin-top: 10vh;
+}
+
+.h-100vh {
+  height: 100vh;
+}

@@ -1,0 +1,184 @@
+[
+    {
+        "position": 1,
+        "team": "LKS Rosanów",
+        "matches": 4,
+        "wins": 4,
+        "draws": 0,
+        "loses": 0,
+        "goals": {
+            "scored": 30,
+            "lost": 4
+        },
+        "points": 12
+    },
+    {
+        "position": 2,
+        "team": "Start II Brzeziny",
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1,
+        "goals": {
+            "scored": 21,
+            "lost": 5
+        },
+        "points": 9
+    },
+    {
+        "position": 3,
+        "team": "AMII II Łódź",
+        "matches": 4,
+        "wins": 3,
+        "draws": 0,
+        "loses": 1,
+        "goals": {
+            "scored": 16,
+            "lost": 11
+        },
+        "points": 9
+    },
+    {
+        "position": 4,
+        "team": "KKS II Koluszki",
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2,
+        "goals": {
+            "scored": 8,
+            "lost": 6
+        },
+        "points": 6
+    },
+    {
+        "position": 5,
+        "team": "Sokół Lutomiersk",
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2,
+        "goals": {
+            "scored": 12,
+            "lost": 9
+        },
+        "points": 6
+    },
+    {
+        "position": 6,
+        "team": "Victoria II Łódź",
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2,
+        "goals": {
+            "scored": 8,
+            "lost": 14
+        },
+        "points": 6
+    },
+    {
+        "position": 7,
+        "team": "LKS II Gałkówek",
+        "matches": 4,
+        "wins": 2,
+        "draws": 0,
+        "loses": 2,
+        "goals": {
+            "scored": 7,
+            "lost": 9
+        },
+        "points": 6
+    },
+    {
+        "position": 8,
+        "team": "Orzeł Łódź",
+        "matches": 3,
+        "wins": 1,
+        "draws": 2,
+        "loses": 0,
+        "goals": {
+            "scored": 5,
+            "lost": 3
+        },
+        "points": 5
+    },
+    {
+        "position": 9,
+        "team": "AKS SMS II Łódź",
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2,
+        "goals": {
+            "scored": 13,
+            "lost": 7
+        },
+        "points": 4
+    },
+    {
+        "position": 10,
+        "team": "Metalowiec Łódź",
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2,
+        "goals": {
+            "scored": 10,
+            "lost": 10
+        },
+        "points": 4
+    },
+    {
+        "position": 11,
+        "team": "Powstaniec Dobra",
+        "matches": 4,
+        "wins": 1,
+        "draws": 1,
+        "loses": 2,
+        "goals": {
+            "scored": 6,
+            "lost": 7
+        },
+        "points": 4
+    },
+    {
+        "position": 12,
+        "team": "Milan II MSMS Łódź",
+        "matches": 2,
+        "wins": 1,
+        "draws": 0,
+        "loses": 1,
+        "goals": {
+            "scored": 8,
+            "lost": 7
+        },
+        "points": 3
+    },
+    {
+        "position": 13,
+        "team": "Kolejarz II Łódź",
+        "matches": 3,
+        "wins": 0,
+        "draws": 1,
+        "loses": 2,
+        "goals": {
+            "scored": 5,
+            "lost": 18
+        },
+        "points": 1
+    },
+    {
+        "position": 14,
+        "team": "KS Wicher",
+        "matches": 4,
+        "wins": 0,
+        "draws": 0,
+        "loses": 4,
+        "goals": {
+            "scored": 2,
+            "lost": 41
+        },
+        "points": 0
+    }
+]
