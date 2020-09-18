@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82a76ef8058354779e5838eabc452875",
+    "revision": "0d30ec647d564fb56145fae90872f023",
     "url": "/victoria-lodz-frontend/index.html"
   },
   {
-    "revision": "3d40b0cc1fd811bfaeb8",
+    "revision": "47bcdf4cebe5ddbbeaaa",
     "url": "/victoria-lodz-frontend/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "2f524d2731bc36c50ede",
-    "url": "/victoria-lodz-frontend/static/css/main.2223ac2a.chunk.css"
+    "revision": "ff841a5fff69266a3c10",
+    "url": "/victoria-lodz-frontend/static/css/main.bcc5b9ac.chunk.css"
   },
   {
-    "revision": "3d40b0cc1fd811bfaeb8",
-    "url": "/victoria-lodz-frontend/static/js/2.d6509a26.chunk.js"
+    "revision": "47bcdf4cebe5ddbbeaaa",
+    "url": "/victoria-lodz-frontend/static/js/2.27490568.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/victoria-lodz-frontend/static/js/2.d6509a26.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/victoria-lodz-frontend/static/js/2.27490568.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f524d2731bc36c50ede",
-    "url": "/victoria-lodz-frontend/static/js/main.369f2753.chunk.js"
+    "revision": "ff841a5fff69266a3c10",
+    "url": "/victoria-lodz-frontend/static/js/main.3a62ccb2.chunk.js"
   },
   {
     "revision": "c89f49b7724c3fa2835f",

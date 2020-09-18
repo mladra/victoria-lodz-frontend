@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/victoria-lodz-frontend/precache-manifest.460d2973bcd0629faafd0878b286d09c.js"
+  "/victoria-lodz-frontend/precache-manifest.5fdb9237f39b156225b37866d22bbf60.js"
 );
 
 self.addEventListener('message', (event) => {
