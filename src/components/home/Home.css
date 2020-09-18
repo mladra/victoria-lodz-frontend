@@ -1,0 +1,42 @@
+.home {
+    margin-top: 10vh;
+    text-align: center;
+}
+  
+.logo-container {
+    width: 100%;
+    height: 45vmin;
+}
+  
+.app-logo {
+    height: 80%;
+    pointer-events: none;
+    border-radius: 25px;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .app-logo {
+      animation: spin-y infinite 5s linear;
+    }
+}
+  
+.home-container {
+    font-size: calc(10px + 2vmin);
+}
+  
+.home-container p {
+    padding: 0 10vw;
+    font-style: italic;
+    font-weight: 300;
+    font-size: calc(10px + 1vmin);
+}
+  
+@keyframes spin-y {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
+  
