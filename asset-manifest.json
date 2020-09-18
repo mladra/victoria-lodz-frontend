@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/victoria-lodz-frontend/static/css/main.bcc5b9ac.chunk.css",
-    "main.js": "/victoria-lodz-frontend/static/js/main.3a62ccb2.chunk.js",
-    "main.js.map": "/victoria-lodz-frontend/static/js/main.3a62ccb2.chunk.js.map",
+    "main.css": "/victoria-lodz-frontend/static/css/main.cb78a882.chunk.css",
+    "main.js": "/victoria-lodz-frontend/static/js/main.ae7d42bf.chunk.js",
+    "main.js.map": "/victoria-lodz-frontend/static/js/main.ae7d42bf.chunk.js.map",
     "runtime-main.js": "/victoria-lodz-frontend/static/js/runtime-main.1270a86d.js",
     "runtime-main.js.map": "/victoria-lodz-frontend/static/js/runtime-main.1270a86d.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/victoria-lodz-frontend/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.27490568.chunk.js": "/victoria-lodz-frontend/static/js/2.27490568.chunk.js",
-    "static/js/2.27490568.chunk.js.map": "/victoria-lodz-frontend/static/js/2.27490568.chunk.js.map",
+    "static/js/2.83287c3b.chunk.js": "/victoria-lodz-frontend/static/js/2.83287c3b.chunk.js",
+    "static/js/2.83287c3b.chunk.js.map": "/victoria-lodz-frontend/static/js/2.83287c3b.chunk.js.map",
     "index.html": "/victoria-lodz-frontend/index.html",
-    "precache-manifest.5fdb9237f39b156225b37866d22bbf60.js": "/victoria-lodz-frontend/precache-manifest.5fdb9237f39b156225b37866d22bbf60.js",
+    "precache-manifest.9bd3961453c8bd7e2acfa0ac14a7d93e.js": "/victoria-lodz-frontend/precache-manifest.9bd3961453c8bd7e2acfa0ac14a7d93e.js",
     "service-worker.js": "/victoria-lodz-frontend/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/victoria-lodz-frontend/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.bcc5b9ac.chunk.css.map": "/victoria-lodz-frontend/static/css/main.bcc5b9ac.chunk.css.map",
-    "static/js/2.27490568.chunk.js.LICENSE.txt": "/victoria-lodz-frontend/static/js/2.27490568.chunk.js.LICENSE.txt",
+    "static/css/main.cb78a882.chunk.css.map": "/victoria-lodz-frontend/static/css/main.cb78a882.chunk.css.map",
+    "static/js/2.83287c3b.chunk.js.LICENSE.txt": "/victoria-lodz-frontend/static/js/2.83287c3b.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/victoria-lodz-frontend/static/media/home-bg.b63dfc45.jpg",
     "static/media/logo.jpg": "/victoria-lodz-frontend/static/media/logo.e5c578e1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1270a86d.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.27490568.chunk.js",
-    "static/css/main.bcc5b9ac.chunk.css",
-    "static/js/main.3a62ccb2.chunk.js"
+    "static/js/2.83287c3b.chunk.js",
+    "static/css/main.cb78a882.chunk.css",
+    "static/js/main.ae7d42bf.chunk.js"
   ]
 }
