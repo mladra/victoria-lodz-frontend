@@ -1,8 +1,6 @@
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import React, { memo, useState } from "react";
 
-const API_KEY = "AIzaSyAIMKf5KJyKuVRCJ-vBlNw39I-2Tf17ssI";
-
 const containerStyle = {
     width: "400px",
     height: "400px"
