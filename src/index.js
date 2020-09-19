@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import emailjs from "emailjs-com";
+
+emailjs.init("user_Ewjg1q9WYwaygJb42vqqj");
 
 ReactDOM.render(
   <React.StrictMode>

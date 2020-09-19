@@ -8,7 +8,7 @@ import "./KSVNavBar.css";
 const KSVNavBar = () => {
 
   return (
-    <Navbar bg="white" expand="lg" sticky="top">
+    <Navbar expand="lg" sticky="top" className="ksv-bg">
       <Navbar.Brand href="/" className="handwriting">
         <img
           alt=""

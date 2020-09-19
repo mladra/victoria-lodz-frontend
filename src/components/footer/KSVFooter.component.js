@@ -8,12 +8,12 @@ const FB_LINK = "https://www.facebook.com/victorialodz1996";
 
 const KSVFooter = () => {
     return (
-        <footer className="footer justify-content-between p-5 d-flex mt-auto align-items-center">
+        <footer className="footer justify-content-between p-5 d-flex mt-auto align-items-center ksv-bg">
             <div>
                 <EnvelopeFill size="24" />{' '}<a className="d-none d-md-inline" href="mailto:biuro@victorialodz.pl">biuro@victorialodz.pl</a>
             </div>
             <div>
-                <img src={fbLogo} width="24" height="24" alt="" />{' '}<a className="d-none d-md-inline" href={FB_LINK}>Odwiedź nas na Facebooku!</a>
+                <img src={fbLogo} width="24" height="24" alt="" />{' '}<a className="d-none d-md-inline" rel="noreferrer noopener" tabIndex="0" target="_blank" href={FB_LINK}>Odwiedź nas na Facebooku!</a>
             </div>
             <div>
                 <GeoAlt size="24"/>{' '}

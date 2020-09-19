@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KSVNavBar from './components/navbar/KSVNavBar.component';
 import Home from './components/home/Home.component';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom';
 import Switch from 'react-bootstrap/esm/Switch';
 import Standings from './components/standings/Standings.component';
 import Contact from './components/contact/Contact.component';
@@ -10,12 +10,12 @@ import KSVFooter from './components/footer/KSVFooter.component';
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <KSVNavBar />
 
       <main className="container flex-shrink-0" role="main">
         <Switch>
-          <Route path="/about">
+          <Route path={"/about"}>
             <h2>About</h2>
           </Route>
           <Route path="/schedule">
@@ -34,7 +34,7 @@ const App = () => {
       </main>
 
       <KSVFooter />
-    </Router>
+    </BrowserRouter>
   );
 };
 
