@@ -7,6 +7,7 @@ import Switch from 'react-bootstrap/esm/Switch';
 import Standings from './components/standings/Standings.component';
 import Contact from './components/contact/Contact.component';
 import KSVFooter from './components/footer/KSVFooter.component';
+import History from './components/about/History.component';
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
       <main className="container flex-shrink-0" role="main">
         <Switch>
           <Route path={"/about"}>
-            <h2>About</h2>
+            <History />
           </Route>
           <Route path="/schedule">
             <h2>Schedule</h2>

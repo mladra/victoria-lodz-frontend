@@ -1,20 +1,35 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import standingsA from "../../data/standings-A.json";
-import standingsB from "../../data/standings-B.json";
 import { Table } from "react-bootstrap";
 import "./StandingsTable.css";
 import { CaretUpFill } from "react-bootstrap-icons";
+import getStandings from "../../services/Standings.service";
 
 const StandingsTable = ({ league }) => {
+    const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
 
+    const firstTeamId = 38098;
+    const secondTeamId = 38412;
+    const season = "2020/2021";
+
     useEffect(() => {
-        //TODO: mladra: Make API request for data
         if (league === "Łódzka A klasa grupa I") {
-            setData(standingsA);
+            getStandings(firstTeamId, season).then(standings => {
+                setData(standings);
+                setLoading(false);
+            }).catch(err => {
+                console.error(err);
+                setLoading(false);
+            });
         } else if (league === "Łódzka B klasa grupa I") {
-            setData(standingsB);
+            getStandings(secondTeamId, season).then(standings => {
+                setData(standings)
+                setLoading(false);
+            }).catch(err => {
+                console.error(err);
+                setLoading(false);
+            });
         }
     }, [league]);
 
@@ -36,18 +51,27 @@ const StandingsTable = ({ league }) => {
                 </thead>
                 <tbody>
                     {data.length !== 0 ? data.map((record, idx) =>
-                        <tr className={record.team === "Victoria Łódź" || record.team === "Victoria II Łódź" ? 'team-highlight' : ''} key={`standing-row-${idx}`}>
-                            <td>{record.position}{' '}{record.position === 1 ? <CaretUpFill /> : undefined}</td>
+                        <tr className={record.team.toLowerCase() === "victoria łódź" || record.team.toLowerCase() === "victoria ii łódź" ? 'team-highlight' : ''} key={`standing-row-${idx}`}>
+                            <td>{idx + 1}{' '}{idx === 0 ? <CaretUpFill /> : undefined}</td>
                             <td>{record.team}</td>
                             <td>{record.matches}</td>
                             <td>{record.wins}</td>
                             <td>{record.draws}</td>
                             <td>{record.loses}</td>
-                            <td>{`${record.goals.scored}:${record.goals.lost}`}</td>
+                            <td>{record.goals}</td>
                             <td>{record.points}</td>
                         </tr>) :
                         <tr>
-                            <td colSpan="8" className="no-data-row">No data</td>
+                            <td colSpan="8">{isLoading ? 
+                                <div class="d-flex justify-content-center">
+                                    <div class="spinner-border" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                </div> : 
+                                <div className="no-data-row">
+                                    No data
+                                </div>}
+                            </td>
                         </tr>}
                 </tbody>
             </Table>
